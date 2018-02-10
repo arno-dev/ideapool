@@ -1,0 +1,6 @@
+framework module Pods_ideapool {
+  umbrella header "Pods-ideapool-umbrella.h"
+
+  export *
+  module * { export * }
+}
