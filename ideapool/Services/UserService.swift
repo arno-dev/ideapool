@@ -59,7 +59,7 @@ enum UserRouter: URLRequestConvertible {
 }
 
 
-class UserAuthentificationService: NSObject {
+class UserService: NSObject {
     func getUserInfo(token: Token, completion: @escaping (_ result: User) -> Void)-> () {
         let urlRequestProvider = UserRouter.getUserInfo(token.jwt)
         Alamofire.request(urlRequestProvider).responseObject { (response: DataResponse<User>) in

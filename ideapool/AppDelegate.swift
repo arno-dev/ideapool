@@ -30,7 +30,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 //                print("after new token \(token.jwt)")
                 
                 // Test for getting user info
-                let userService = UserAuthentificationService()
+                let userService = UserService()
                 userService.getUserInfo(token: token, completion: { (user) in
                     print("user \(user)")
                 })

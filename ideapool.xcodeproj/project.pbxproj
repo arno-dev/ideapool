@@ -21,7 +21,8 @@
 		0DE40941202E8F2D008C06C7 /* Token.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE4093A202E8F2D008C06C7 /* Token.swift */; };
 		0DE40943202EA7C2008C06C7 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE40942202EA7C2008C06C7 /* User.swift */; };
 		0DE40945202EA84C008C06C7 /* Idea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE40944202EA84C008C06C7 /* Idea.swift */; };
-		0DE40947202EA963008C06C7 /* UserAuthentificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE40946202EA963008C06C7 /* UserAuthentificationService.swift */; };
+		0DE40947202EA963008C06C7 /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE40946202EA963008C06C7 /* UserService.swift */; };
+		0DE4094B202EB610008C06C7 /* IdeaService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE4094A202EB610008C06C7 /* IdeaService.swift */; };
 		3A205B68F95CFE84A399597B /* Pods_ideapool.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CC5DA6614CB6A379E220BC1 /* Pods_ideapool.framework */; };
 		C5047918FDEDE9BDC81C75A0 /* Pods_ideapoolTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27251B7D7FEA2E0ACE0C038C /* Pods_ideapoolTests.framework */; };
 /* End PBXBuildFile section */
@@ -55,7 +56,8 @@
 		0DE4093A202E8F2D008C06C7 /* Token.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Token.swift; sourceTree = "<group>"; };
 		0DE40942202EA7C2008C06C7 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		0DE40944202EA84C008C06C7 /* Idea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Idea.swift; sourceTree = "<group>"; };
-		0DE40946202EA963008C06C7 /* UserAuthentificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAuthentificationService.swift; sourceTree = "<group>"; };
+		0DE40946202EA963008C06C7 /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
+		0DE4094A202EB610008C06C7 /* IdeaService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdeaService.swift; sourceTree = "<group>"; };
 		1CC5DA6614CB6A379E220BC1 /* Pods_ideapool.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ideapool.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		27251B7D7FEA2E0ACE0C038C /* Pods_ideapoolTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ideapoolTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		50FA5524AB9BC3E867D8568A /* Pods-ideapoolTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ideapoolTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ideapoolTests/Pods-ideapoolTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -151,7 +153,8 @@
 			isa = PBXGroup;
 			children = (
 				0DE40935202E8F2D008C06C7 /* AuthentificationService.swift */,
-				0DE40946202EA963008C06C7 /* UserAuthentificationService.swift */,
+				0DE40946202EA963008C06C7 /* UserService.swift */,
+				0DE4094A202EB610008C06C7 /* IdeaService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -401,8 +404,9 @@
 				0DE40940202E8F2D008C06C7 /* SignUpViewController.swift in Sources */,
 				0DE40945202EA84C008C06C7 /* Idea.swift in Sources */,
 				0DE4093C202E8F2D008C06C7 /* LoginPresenter.swift in Sources */,
+				0DE4094B202EB610008C06C7 /* IdeaService.swift in Sources */,
 				0DE40910202E8F11008C06C7 /* AppDelegate.swift in Sources */,
-				0DE40947202EA963008C06C7 /* UserAuthentificationService.swift in Sources */,
+				0DE40947202EA963008C06C7 /* UserService.swift in Sources */,
 				0DE4093D202E8F2D008C06C7 /* SignUpPresenter.swift in Sources */,
 				0DE40943202EA7C2008C06C7 /* User.swift in Sources */,
 				0DE4093E202E8F2D008C06C7 /* AuthentificationService.swift in Sources */,
